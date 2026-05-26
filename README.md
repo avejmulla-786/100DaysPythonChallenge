@@ -1,3 +1,3 @@
-# 100 Days Python Challenge
+# 100 Days Python Challenge 🚀
 
-Learning Python daily by building and practicing small projects and concepts 🚀
+Learning Python daily by practicing coding concepts, data structures
