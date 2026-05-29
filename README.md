@@ -7,11 +7,6 @@ This repository contains my daily Python practice as part of the **100 Days Pyth
 Each day includes new concepts, exercises, and small programs to improve coding skills consistently.
 
 
-## 🚀 Progress
-- ✅ Day 1 Completed
-- ✅ Day 2 Completed
-- ✅ Day 3 Completed
-- 🔄 More coming daily...
 
 ## ⭐ Keep Learning
 Consistency is the key to mastering programming.
@@ -31,4 +26,15 @@ Consistency is the key to mastering programming.
 
 ## 🎯 Goal
 To become confident in Python programming through daily practice and consistency.
+
+
+## 🚀 Progress
+- ✅ Day 1 Completed
+- ✅ Day 2 Completed
+- ✅ Day 3 Completed
+- 🔄 More coming daily...
+
+## ⭐ Keep Learning
+Consistency is the key to mastering programming.
+
 
