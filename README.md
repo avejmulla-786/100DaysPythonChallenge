@@ -24,17 +24,6 @@ Consistency is the key to mastering programming.
 - Mini Projects
 - Problem Solving
 
-## 🎯 Goal
-To become confident in Python programming through daily practice and consistency.
 
-
-## 🚀 Progress
-- ✅ Day 1 Completed
-- ✅ Day 2 Completed
-- ✅ Day 3 Completed
-- 🔄 More coming daily...
-
-## ⭐ Keep Learning
-Consistency is the key to mastering programming.
 
 
