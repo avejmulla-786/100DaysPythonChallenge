@@ -17,7 +17,4 @@ print(len(str1.center(50)))
 
 print(str1.endswith("to",4,10))
 
-str1 = "he's name is Dan. He is an honest man ."
 
-print(str1.find("ishh"))
-print(str1.index("ishh"))
