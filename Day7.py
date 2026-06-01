@@ -33,3 +33,6 @@ elif (budget - applePrice > 70):
 
 else:
     print("Alexa, do not add Apples to the cart.")    
+
+print("Thank you for shopping with us!")
+print("Visit again 😊")
