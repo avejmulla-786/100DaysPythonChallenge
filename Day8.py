@@ -1,16 +1,26 @@
-import time 
-#= int(input("Enter 1 :"))
-# = int(input("Enter 2 :"))
-# = int(input("Enter 3 :"))
 
+
+
+import time
+
+# Current Time
 timestamp = time.strftime('%H:%M:%S')
-print(timestamp)
+print("Current Time:", timestamp)
 
-timestamp = time.strftime('%H')
-print(timestamp)
+# Current Hour
+hour = int(time.strftime('%H'))
 
-timestamp = time.strftime('%M')
-print(timestamp)
+# Greeting Logic
+if(hour >= 0 and hour < 12):
+    print("Good Morning Sir 🌅")
 
-timestamp = time.strftime('%S')
-print(timestamp)
+elif(hour >= 12 and hour < 17):
+    print("Good Afternoon Sir ☀️")
+
+elif(hour >= 17 and hour < 21):
+    print("Good Evening Sir 🌇")
+
+else:
+    print("Good Night Sir 🌙")
+
+print("Have a nice day 😊")
