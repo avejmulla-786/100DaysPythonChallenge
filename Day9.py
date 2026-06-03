@@ -3,6 +3,7 @@ x = int(input("Enter the value of x: "))
 # x is the variable to match
 match x:
 
+    # if x is 0
     case 0:
         print("x is zero")
 
@@ -19,3 +20,19 @@ match x:
 
     case _:
         print(x)
+
+     case _ if x < 0:
+        print("Negative number entered")
+
+    case _ if x % 2 == 0:
+        print(x, "is an even number")
+
+    case _ if x % 2 != 0:
+        print(x, "is an odd number")
+
+    case _:
+        print(x)
+        print("Default case executed")
+
+print("Program executed successfully ")
+print("Thanks for using Match Case in Python ")
