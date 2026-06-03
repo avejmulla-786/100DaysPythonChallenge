@@ -21,7 +21,7 @@ match x:
     case _:
         print(x)
 
-     case _ if x < 0:
+    case _ if x < 0:
         print("Negative number entered")
 
     case _ if x % 2 == 0:
