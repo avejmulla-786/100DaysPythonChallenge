@@ -7,19 +7,14 @@ match x:
     case 0:
         print("x is zero")
 
-
     case 4:
         print("case is 4")
 
-    
-    case _ if x != 90:
-        print(x, "is not 90")
+    case 10:
+        print("x is ten")
 
-    case _ if x != 80:
-        print(x, "is not 80")
-
-    case _:
-        print(x)
+    case 20:
+        print("x is twenty")
 
     case _ if x < 0:
         print("Negative number entered")
@@ -30,9 +25,15 @@ match x:
     case _ if x % 2 != 0:
         print(x, "is an odd number")
 
+    case _ if x != 90:
+        print(x, "is not 90")
+
+    case _ if x != 80:
+        print(x, "is not 80")
+
     case _:
         print(x)
         print("Default case executed")
 
-print("Program executed successfully ")
-print("Thanks for using Match Case in Python ")
+print("Program executed successfully ✅")
+print("Thanks for using Match Case in Python 🚀")
