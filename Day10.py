@@ -21,3 +21,12 @@ numbers = [10, 20, 30, 40, 50]
 for num in numbers:
     print("Number:", num)    
 
+
+num = 5
+
+print("Multiplication Table of", num)
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+
