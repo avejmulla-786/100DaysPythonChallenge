@@ -56,4 +56,13 @@ print("Index of 20:", numbers.index(20))
 
 print("Count of 40:", numbers.count(40))
 
+
+# Extra List Practice
+
+students = ["Avej", "Adil", "Ali"]
+
+for student in students:
+    print("Student Name:", student)
+
+
                 
