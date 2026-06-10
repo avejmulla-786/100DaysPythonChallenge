@@ -64,5 +64,9 @@ students = ["Avej", "Adil", "Ali"]
 for student in students:
     print("Student Name:", student)
 
+students.append("Rehan")
+
+print("Updated Students:", students)
+print("Total Students:", len(students))
 
                 
