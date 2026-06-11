@@ -19,4 +19,12 @@ print("Last element:", tup[-1])
 print("Tuple Slice:", tup[1:4])
 
 for item in tup:
-    print("Item:", item)    
+    print("Item:", item)
+    
+# Tuple Methods Practice
+
+tup = (1, 2, 3, 4, 5)
+
+print("Maximum:", max(tup))
+print("Minimum:", min(tup))
+print("Sum:", sum(tup))    
