@@ -8,3 +8,15 @@ print(tup[4])
 
 if 342 in tup:
     print("Yes 342 is present in this tuple")
+
+
+# Extra Tuple Operations
+
+print("Length of tuple:", len(tup))
+
+print("Last element:", tup[-1])
+
+print("Tuple Slice:", tup[1:4])
+
+for item in tup:
+    print("Item:", item)    
