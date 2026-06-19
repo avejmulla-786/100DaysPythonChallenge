@@ -18,4 +18,4 @@ print("Values:", ep1.values())
 for key, value in ep1.items():
     print(f"Key = {key}, Value = {value}")
 
-print("Dictionary practice completed ✅")
+
