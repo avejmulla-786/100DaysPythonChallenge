@@ -11,4 +11,17 @@ except :
 print("Some lines of code") 
 print("End of program")   
              
-          
+# Extra Exception Example
+
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
+
+    print("Division =", num1 / num2)
+
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+
+except ValueError:
+    print("Please enter only numbers!")
+         
