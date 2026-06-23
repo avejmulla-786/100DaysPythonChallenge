@@ -14,3 +14,25 @@ def func1():
 
 x = func1()
 print(x)
+
+
+def divide():
+
+    try:
+        a = int(input("Enter first number: "))
+        b = int(input("Enter second number: "))
+
+        print("Result:", a / b)
+
+        return "Success"
+
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+
+        return "Failed"
+
+    finally:
+        print("Division program ended")
+
+
+print(divide())
