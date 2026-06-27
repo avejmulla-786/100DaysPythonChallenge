@@ -47,4 +47,3 @@ else:
     print("Result       : PASS ")
 
 print("=" * 50)
-print("Thank You!")
