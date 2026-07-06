@@ -1,1 +1,7 @@
-Hello Everyone 
+Python is a high-level, general-purpose programming language 
+celebrated for its clean, English-like syntax and emphasis on 
+code readability
+Created by Guido van Rossum and first released in 1991, it 
+has grown into one 
+of the most popular and versatile programming languages in 
+the world.
