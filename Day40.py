@@ -20,3 +20,16 @@ with open("MY_File.txt", "r") as f:
     print("Remaining Data:")
     print(remaining)
 
+    print("Starting Position:", f.tell())
+
+    first = f.read(8)
+    print("First 8 Bytes:", first)
+
+    print("Current Position:", f.tell())
+
+    f.seek(0)
+    print("After seek(0):", f.tell())
+
+    print("First Line:", f.readline().strip())
+
+    print("Current Position:", f.tell())
