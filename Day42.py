@@ -17,3 +17,20 @@ def filter_function(a):
 
 newnewl = list(filter(filter_function,l))
 print(newnewl)
+
+
+# Square using lambda
+square_list = list(map(lambda x: x ** 2, l))
+print("Square List:", square_list)
+
+# Even Numbers
+even_numbers = list(filter(lambda x: x % 2 == 0, l))
+print("Even Numbers:", even_numbers)
+
+# Reduce - Sum of all elements
+total = reduce(lambda x, y: x + y, l)
+print("Sum of List:", total)
+
+# Reduce - Maximum Number
+maximum = reduce(lambda x, y: x if x > y else y, l)
+print("Maximum Number:", maximum)
