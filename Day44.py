@@ -13,3 +13,23 @@ b.Education = "Engineer"
 a.info()
 b.info()       
     
+c = Student()
+c.name = "Rehan"
+c.Education = "chemical Engineer"
+
+c.info()
+
+print("\nStudent Details")
+
+students = [a,b,c]
+
+for student in students:
+    print(f"name:{student.name}")
+    print(f"Education:{student.Education}")
+    print("-"*30)
+
+print("Total Students:",len(students))
+
+
+
+
