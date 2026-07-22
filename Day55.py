@@ -33,3 +33,21 @@ print("Species:", dog.species)
 print("Breed:", dog.breed)
 
 dog.make_sound()
+ 
+print("-" * 30)
+
+dog2 = Dog("Rocky", "Labrador")
+dog3 = Dog("Max", "Husky")
+
+dogs = [dog, dog2, dog3]
+
+print("Dog Details:")
+
+for d in dogs:
+    print(f"Name: {d.name}")
+    print(f"Species: {d.species}")
+    print(f"Breed: {d.breed}")
+    d.make_sound()
+    print("-" * 20)
+
+print("Total Dogs:", len(dogs))
