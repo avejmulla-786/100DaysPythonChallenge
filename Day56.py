@@ -38,3 +38,22 @@ print("-" * 30)
 
 # Method Resolution Order
 print(GoldenRetriever.mro())
+
+print("-" * 30)
+
+dog1 = GoldenRetriever("Bruno", "Light Golden")
+dog2 = GoldenRetriever("Max", "Dark Golden")
+
+dog1.show_details()
+
+print("-" * 20)
+
+dog2.show_details()
+
+print("-" * 30)
+
+dogs = [o, dog1, dog2]
+
+for dog in dogs:
+    print(f"{dog.name} is a {dog.breed} with {dog.color} color")
+
