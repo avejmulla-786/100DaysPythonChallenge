@@ -21,5 +21,33 @@ foods = list()
 while (food := input("what food do you like?:")) != "quit":
     foods.append(food)
 
+print("-" * 40)
+
+print("Your Favourite Foods:")
+
+for index, food in enumerate(foods, start=1):
+    print(f"{index}. {food}")
+
+print("Total Foods:", len(foods))
+
+print("-" * 40)
+
+# Another Walrus Operator Example
+
+values = [10, 20, 30, 40, 50]
+
+while (length := len(values)) > 0:
+    print(f"Items remaining: {length}")
+    removed = values.pop()
+    print(f"Removed: {removed}")
+
+print("-" * 40)
+
+# Walrus with if statement
+
+text = "Python Programming"
+
+if (size := len(text)) > 10:
+    print(f"Text is long. It contains {size} characters.")
 
     
